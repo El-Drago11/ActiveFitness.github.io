@@ -1,0 +1,131 @@
+body{
+    background-image: url("/images/12.jpg");
+    background-size: cover;
+    background-color: rgb(8,8,8);
+}
+.container{
+    margin-top: 100px;
+}
+h2{
+    font-size: 1.5cm;
+}
+
+.stick{
+    text-align: center;
+    background-color: rgb(234 5 94);
+    display: block;
+    position: sticky;
+    top: 0;
+    z-index: 3;
+    height: 150px;
+}
+
+.h111{/* Java-Script add this class */
+    color: rgb(255, 239, 10); 
+}
+#h11{
+    margin-top: 50px;
+}
+.click{
+    margin-top: 100px;
+    margin-bottom: 20px;
+    color: rgb(255, 0, 0);
+    display: block;
+    width: 100%;
+    font-size: 1cm;
+    text-align: center;
+}
+
+.large img:hover{
+    height:250px;
+    width:270px;
+}
+.arms{
+    display: inline-block;
+    
+    text-decoration: none;
+}
+
+.chest{
+    display: inline-block;
+    text-decoration: none;
+}
+.stomach{
+    display: inline-block;
+    text-decoration: none;
+}
+.legs{
+    display: inline-block;
+    text-decoration: none;
+}
+.foot{
+    height:fit-content;
+    background-color: #00ab36;
+    display: block;
+    position: fixed;
+    bottom: 0px;
+    z-index: 2;
+    border-radius: 200cm;
+}
+.beg{
+    text-decoration: none;
+    background-color:white;
+    border-radius: 10px;
+    width: 250px;
+    text-align: center;
+    color: orangered;
+    margin-left: 40px;
+}
+.beg:hover{
+    width: 68%;
+}
+.inter{
+    text-decoration: none;
+    background-color:white;
+    border-radius: 10px;
+    width: 250px;
+    text-align: center;
+    margin-left: 40px;
+}
+.inter:hover{
+    width: 90%;
+}
+.intense{
+    text-decoration: none;
+    background-color:white;
+    border-radius: 10px;
+    width: 250px;
+    text-align: center;
+    margin-left: 40px;
+}
+.intense:hover{
+    width: 68%;
+}
+
+/* Footer */
+.foothead{
+    text-align: left;
+    padding-left: 10px;
+    margin-bottom: -50px;
+}
+.SportsWorkout{
+    color: whitesmoke;
+}
+ul li{
+    list-style-type: none;
+}
+#footer{
+    margin-top: 200px;
+    background-color: rgb(58, 52, 52);
+}
+.demi{
+    text-decoration: none;
+}
+.end{
+    margin-top: -100px;
+}
+#Copyright{
+    color: aliceblue;
+    text-align: center;
+   
+}

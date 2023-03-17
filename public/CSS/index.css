@@ -1,0 +1,242 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100%;
+    width: 100%;
+}
+
+  
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    border-radius: 30px;
+    line-height: 60px;
+    background-color: rgb(192, 221, 224);
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    flex-direction: column;
+    width: 300px; 
+    height: 130px; 
+    text-align: center;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    text-decoration: none;
+    display: block;
+  }
+  .mydrop{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+}
+  
+.dropdown:hover .dropdown-content {display: block;}
+  
+.container-md{
+    display: block;
+    background-color:rgb(231, 231, 231);
+    margin-bottom: 1%;
+}
+.navbarparent{
+    margin-top:20px;
+    margin-bottom:20px;
+}
+#navbar{
+    padding-top: 20px;
+    font-weight: bolder;
+    color: rgb(0, 0, 0);
+}
+a{
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 200px;
+    color: blueviolet;
+}
+#Parent{
+    background-color: rgb(237, 199, 237);
+    margin-top: 20px;
+}
+
+#Main10{
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+#Join-now{
+    margin-bottom: 70px;
+}
+#JN{
+    text-decoration: none;
+    text-align: center;
+    color: azure;
+    background-color: black;
+    width: 3cm;
+    padding: 10px;
+    border-radius: 20px;
+}
+/* Pass text decoration Start*/
+#pass11{
+    text-decoration:none;
+    color:black;
+}
+#pass111{
+    text-decoration:none;
+    font-weight: 800;
+    color: black;
+}
+#pass22{
+    text-decoration:none;
+    color:black;
+}
+#pass222{
+    text-decoration:none;
+    font-weight: 800;
+    color: black;
+}
+#pass33{
+    text-decoration:none;
+    color:black;
+}
+#pass333{
+    text-decoration:none;
+    font-weight: 800;
+    color: black;
+}
+/* Pass decoration End */
+#Main3a{
+    background-color:whitesmoke;
+    border-radius: 7%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-right: 2%;
+    height: 3.5cm;
+    width: 6cm;
+    display: inline-block;
+}
+#pass1{
+    margin-bottom:2% ;
+    padding-top: 3%;
+    font-size: 1cm;
+    font-weight: bold;
+    text-align: center;
+    height: 2cm;
+    width: 6cm;
+    background-color: green;
+}
+.pass1a{
+    padding-top: 5%;
+    font-weight: bold;
+    font-size: 0.8cm;
+    color: black;
+    text-align: center;
+    /* background-color: rgb(240, 173, 86); */
+    height: 1.2cm;
+    width: 6cm;
+}
+#Main3b{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-right: 2%;
+    border-radius: 7%;
+    height: 3.5cm;
+    width: 6cm;
+    background-color:whitesmoke;
+    display: inline-block;
+}
+#pass2{
+    margin-bottom:2% ;
+    padding-top: 3%;
+    font-size: 1cm;
+    font-weight: bold;
+    text-align: center;
+    height: 2cm;
+    width: 6cm;
+    background-color: green;
+}
+#Main3c{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border-radius: 7%;
+    height: 3.5cm;
+    width: 6cm;
+    background-color:whitesmoke;
+    display: inline-block;
+}
+#pass3{
+    margin-bottom:2% ;
+    padding-top: 3%;
+    font-size: 1cm;
+    font-weight: bold;
+    text-align: center;
+    height: 2cm;
+    width: 6cm;
+    background-color:green;
+}
+
+.card{
+    margin-top: 80px;
+    margin-bottom: 0px;
+}
+
+#support-com{
+    background-image: url("/images/log1.jpg");
+    background-size: cover;
+    margin-top: 4%;
+    margin-left: 5px;
+    height: 700px;
+}
+#support-com-1{
+    text-align: center;
+}
+#support-com-member{
+    text-decoration: none;
+    text-align: center;
+    color: blue;
+}
+
+#wellness{
+    margin-top: 40px;
+    padding-top: 150px;
+    background-image: url("/images/log2.jpg");
+    background-size: cover;
+    height: 500px;
+    text-align: center;
+}
+#healthy{
+    margin-top: 40px;
+    text-align: center;
+    padding-top: 150px;
+    background-image: url("/images/log3.jpg");
+    background-size: cover;
+    height: 500px;
+}
+
+/* FOOTER--CSS */
+.foothead{
+    text-align: left;
+    padding-left: 10px;
+}
+.SportsWorkout{
+    color: whitesmoke;
+}
+ul li{
+    list-style-type: none;
+}
+#footer{
+    margin-top: 200px;
+    padding-top: 20px;
+    background-color: rgb(58, 52, 52);
+}
+.demi{
+    text-decoration: none;
+}
+#Copyright{
+    color: aliceblue;
+    text-align: center;
+}

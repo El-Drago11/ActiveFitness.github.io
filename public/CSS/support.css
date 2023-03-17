@@ -1,0 +1,81 @@
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    border-radius: 30px;
+    line-height: 60px;
+    background-color: rgb(192, 221, 224);
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    flex-direction: column;
+    width: 300px; 
+    height: 130px; 
+    text-align: center;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    text-decoration: none;
+    display: block;
+  }
+  .mydrop{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+}
+  
+.dropdown:hover .dropdown-content {display: block;}
+  
+.container-md{
+    display: block;
+    background-color:rgb(231, 231, 231);
+    margin-bottom: 1%;
+}
+.navbarparent{
+    margin-top:20px;
+    margin-bottom:20px;
+}
+#navbar{
+    padding-top: 20px;
+    font-weight: bolder;
+    color: rgb(0, 0, 0);
+}
+a{
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 200px;
+    color: blueviolet;
+}
+#motto{
+    margin-top: 50px;
+    background-color: rgb(160, 85, 231);
+}
+.mottohead{
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+#motto1{
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color: rgb(160, 85, 231);
+    padding-top: 45px;
+
+}
+#motto2{
+    background-color: rgb(160, 85, 231);
+    padding-top: 45px;
+
+}
+#features{
+    margin-top: 100px;
+}
+#benifits{
+    height: 100px;
+    font-size: 20px;
+    font-weight: bold;
+    border:5px solid ;
+    line-height: 70px;
+}

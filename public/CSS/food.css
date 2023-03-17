@@ -1,0 +1,62 @@
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    border-radius: 30px;
+    line-height: 60px;
+    background-color: rgb(192, 221, 224);
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    flex-direction: column;
+    width: 300px;
+    height: 130px; 
+    text-align: center;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    text-decoration: none;
+    display: block;
+  }
+  .mydrop{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+}
+  
+.dropdown:hover .dropdown-content {display: block;}
+  
+.container-md{
+    display: block;
+    background-color:rgb(231, 231, 231);
+    margin-bottom: 1%;
+}
+.navbarparent{
+    margin-top:20px;
+    margin-bottom:20px;
+}
+#navbar{
+    padding-top: 20px;
+    font-weight: bolder;
+    color: rgb(0, 0, 0);
+}
+a{
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 200px;
+    color: blueviolet;
+}
+.like{
+    border-bottom: 1px solid wheat;
+    margin-bottom: 100px;
+}
+
+.heading{
+    margin-top: 50px;
+    margin-bottom: 20px;
+    color: blueviolet;
+    border-bottom: 1px solid;
+}
