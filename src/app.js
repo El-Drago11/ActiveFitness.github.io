@@ -9,7 +9,7 @@ const {Register,Buynow} = require("./models/register"); //{Register,Buynow}==> I
 const { warn } = require("console");
 
 //automatic port genration 
-const port = process.env.PORT || 3000; //--> (either genrate the automatic port or 3000port )
+const port = process.env.PORT || 5001; //--> (either genrate the automatic port or 3000port )
 
 //connection to the HTML page
 const static_path = path.join(__dirname,"../public");
@@ -39,7 +39,7 @@ app.get("/support",(req,res)=>{
     res.render("support")
 })
 //Creating the database for the user who want to buy 
-app.post("/register",async(req,res)=>{
+app.post("/",async(req,res)=>{
     try{
        const registerCustomer = new Buynow({ //Buynow == collection Name of the potential customer
         Name  : req.body.name,
@@ -58,7 +58,7 @@ app.post("/register",async(req,res)=>{
 })
 
 //lOGIN STATUS
-app.post("/loginnow",async(req,res)=>{
+app.post("/login",async(req,res)=>{
     try{
     const email = req.body.emaillog;
     const password = req.body.passwordlog;
@@ -69,7 +69,7 @@ app.post("/loginnow",async(req,res)=>{
     }else{ 
         res.render("login",{
             Name : email,
-            Pass : password
+           
         })
     }
     console.log(useremail)
